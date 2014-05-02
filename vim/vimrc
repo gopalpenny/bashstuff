@@ -1,0 +1,18 @@
+syntax enable
+
+hi Normal ctermbg=NONE
+
+set background=dark
+colorscheme solarized
+
+
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+set number
+
+highlight LineNr ctermfg=grey
+
+so ~/.vim/ftplugin/python/ipy.vim
